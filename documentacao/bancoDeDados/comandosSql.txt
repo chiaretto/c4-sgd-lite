@@ -1,0 +1,20 @@
+// Testes
+
+// Inserir novo tipo de conteúdo
+INSERT INTO TipoConteudo(Tip_nome, Tip_slug)
+VALUES ("Usuários","usuarios");
+
+// Inserir novo campo no tipo de conteudo criado
+INSERT INTO CampoPersonalizado(TipoConteudo_Tip_id, Cam_nome, Cam_slug, Cam_tipo)
+VALUES ("1","Nome Completo","nome_completo","text");
+
+INSERT INTO CampoPersonalizado(TipoConteudo_Tip_id, Cam_nome, Cam_slug, Cam_tipo)
+VALUES ("1","Email","email","text");
+
+INSERT INTO CampoPersonalizado(TipoConteudo_Tip_id, Cam_nome, Cam_slug, Cam_tipo)
+VALUES ("1","Usuário","usuario","text");
+
+INSERT INTO CampoPersonalizado(TipoConteudo_Tip_id, Cam_nome, Cam_slug, Cam_tipo)
+VALUES ("1","Senha","senha","pass");
+
+

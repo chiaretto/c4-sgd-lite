@@ -1,0 +1,19 @@
+Tipos de campos que serão disponibilizados para criação do Tipo de Conteúdo 
+
+texto
+senha
+textArea
+htmlTextArea
+imagem
+arquivo
+galeriaDeImagens
+listaDeTags
+listaDeCategorias (será compartilhado essa litagem pelos mesmo tipos de conteúdo)
+data
+hora
+numero
+checkBox
+listaDeCheckbox
+comboBox
+listaDeRadioButton
+

@@ -1,0 +1,18 @@
+/*
+ * Lista de estilos site Conex Log
+ * @autor: Fabiano Chiaretto Fernandes
+ * @empresa: Fórmula P
+ * 
+ * Versão para iPhone
+ */
+
+#colunaMenu{
+ 	margin-left:5px !important;
+	width: 120px !important;
+
+}
+ 
+#conteudo {
+	margin-right:5px !important;
+	margin-left:130px !important;
+}

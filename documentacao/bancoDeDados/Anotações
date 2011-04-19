@@ -1,0 +1,24 @@
+18:22 30/06/2010
+	Acho que os campos personalizados não precisam de slug.
+
+09:10 01/07/2010
+	Os campos personalizados precisam de slug porque o slug será o name e o id dos campos na página de adicionar conteúdo
+	
+09:24 28/07/2010
+	Serão basicamente duas formas de gerenciar conteudos.
+	
+	Novo tipo de conteudo com listagem e edição.
+	Nova página de configurações, onde só existirá essa página com os campos a serem personalizados e o botão de salvar. Como titulo do site, logo, url, tag, etc.
+	
+	Para a exportação haverá uma pasta chamada XML/ e nela haverá 3 arquivos de retorno XML:
+		
+		listagem.php.xml?tipodeconteudo=noticias&limiteinicial=0&limitefinal=10&camposslug=titulo,conteudo,autor >> para trazer em lista os conteúdos para serem tratados na página.
+		listagem.php.xml?tipodeconteudo=noticias&limiteinicial=0&limitefinal=10&camposslug=titulo,conteudo,autor&id=55 >> para trazer só o id selecionado pelo id
+		listagem.php.xml?tipodeconteudo=noticias&limiteinicial=0&limitefinal=10&camposslug=titulo,conteudo,autor&slug=titulo_noticia >> para trazer só o id selecionado pelo slug
+		dados.php.xml >> Para retornar os dados das paginas de configurações.
+				
+	Acho que esses itens deve entrar só nas versão 2.
+	
+17:26 14/10/2010
+	Cada tipo de aconteudo adicionado terá um box adicionado ao menu lateral do sistema.
+	

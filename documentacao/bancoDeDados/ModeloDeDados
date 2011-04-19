@@ -1,0 +1,32 @@
+(Notícias)
+
+[Postagem]
+	Post_id	TipoConteudo_Tip_id	Post_data
+	1		1					30-06-2010
+	2		2					31-06-2010
+	
+	[ConteudoCampoPostagem]
+	Cont_id	CampoPersonalizado_Cam_id	Postagem_Post_id	Cont_valor			Cont_data
+	1		1							1					Teste notícia		30-06-2010
+	2		2							1					Testando o sgd		30-06-2010
+	3		3							1					30-06-2010			30-06-2010
+	4		4							2					Fabiano Chiaretto	31-06-2010
+	5		5							2					chiaretto@gmail.com	31-06-2010
+	6		6							2					chiaretto			31-06-2010
+	7		7							2					123456				31-06-2010
+
+[TiposConteudo]
+	Tip_id	Tip_nome	Tip_slug	Tip_data
+	1		Usuários	usuarios	30-06-2010	
+	2		Notícias	noticias	30-06-2010	
+	
+	
+[CampoPersonalizado]
+	Cam_id	TipoConteudo_Tip_id	Cam_nome		Cam_slug		Cam_data	Cam_tipo
+	1		2					Título			titulo			30-06-2010	texto
+	2		2					Conteúdo		conteudo		30-06-2010	htmltextarea	
+	3		2					Data publicação	data_publicacao	30-06-2010	data
+	4		1					Nome			nome			31-06-2010	texto
+	5		1					E-mail			e-mail			31-06-2010	texto
+	6		1					Usuário			usuario			31-06-2010	texto
+	7		1					Senha			senha			31-06-2010	senha

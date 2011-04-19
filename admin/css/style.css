@@ -1,0 +1,444 @@
+/*
+ * Lista de estilos
+ * Sistema de Gerenciamento de Dados - SGD
+ * 
+ * @autor: Fabiano Chiaretto Fernandes
+ * @ultimaAlteracao 16:35 07/07/2010
+ * 
+ */
+
+a:focus {
+    -moz-outline-style: none;
+    outline: none;
+}
+
+a:active {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+button, .botao{
+	cursor: pointer;
+}
+
+input, textarea, select{
+	-moz-border-radius: 5px; /*Firefox*/
+	-webkit-border-radius: 5px ; /*Safari/Crome*/
+	-khtml-border-radius: 5px ; /*Linux Browser*/
+	border-radius: 5px ; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+	border:1px solid #D1D1D1;
+	font-family: Arial;
+	font-size: 10pt;
+	padding: 2px 10px 2px 10px;
+}
+
+form label{
+	cursor: pointer;
+}
+
+/* ##################### */
+/* ###### Topo ######### */
+/* ##################### */
+
+#topo{
+	background-color: #E4E4E4;
+	background:-moz-linear-gradient(center bottom , #D7D7D7, #E4E4E4) repeat scroll 0 0 transparent;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E4E4E4), to(#D7D7D7));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#E4E4E4, endColorstr=#D7D7D7);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#E4E4E4, endColorstr=#D7D7D7)";
+
+	border:1px solid #D1D1D1;
+	color:#777777;
+	padding: 10px 20px 10px 20px;
+}
+
+#slogan{
+	height: 64px;
+	line-height: 64px;
+	font-size: 22pt;
+	margin-left: 20px;
+}
+
+/* ##################### */
+/* ###### body ######### */
+/* ##################### */
+
+body {
+	background-image:url('img/bg_linhas.png');
+	background-repeat:repeat;
+	font-family: "Trebuchet MS" , Helvetica, Arial;
+	font-size: 10pt;
+	color: #999999;
+	margin: 0;
+	padding: 0;
+	min-width: 400px;
+}
+
+a{
+	text-decoration: none;
+	color: #21759B;	
+}
+
+a:hover{
+	text-decoration: none;
+	color: #333333;	
+}
+
+h1, h2, h3, h4, h5 {
+	text-shadow: 0 1px 0 #CCCCCC;
+}
+
+/* ###################### */
+/* ###### Menu ######### */
+/* ###################### */
+
+#colunaMenu{
+	margin: 10px 0px 10px 20px;
+	/*border:1px solid red;*/
+	float: left;
+	width: 150px;
+}
+
+.separadorBlocoMenu{
+	border: #FFF;
+	border-top:1px dashed #E1E1E1;
+	height:1px;
+	width: 92%;
+}
+
+.blocoMenu{
+	margin: 0 0 10px 0;	
+}
+
+.blocoMenu .iconeMenu{
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	position: absolute;
+	margin: 6px 0 0 10px;
+}
+
+.blocoMenu .iconeSeta{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+}
+
+.blocoMenu a.linkBlocoMenu{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	padding: 5px 10px 5px 35px;
+	display: block;
+	overflow: hidden;
+	background:repeat-x scroll left top #F1F1F1;
+	color:#000000;
+	border-top:1px solid #E3E3E3;
+	border-left:1px solid #E3E3E3;
+	border-right:1px solid #E3E3E3;
+	-moz-border-radius: 5px 5px 0 0; /*Firefox*/
+	-webkit-border-radius: 5px 5px 0 0; /*Safari/Crome*/
+	-khtml-border-radius: 5px 5px 0 0; /*Linux Browser*/
+	border-radius: 5px 5px 0 0; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+}
+
+.blocoMenu ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+	border:1px solid #E3E3E3;
+	-moz-border-radius: 0 0 5px 5px; /*Firefox*/
+	-webkit-border-radius: 0 0 5px 5px; /*Safari/Crome*/
+	-khtml-border-radius: 0 0 5px 5px; /*Linux Browser*/
+	border-radius: 0 0 5px 5px; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+}
+
+.blocoMenu ul.opcoesMenu li.itemMenu a.linkMenu{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	padding: 2px 10px 2px 10px;
+	line-height: 18px;
+	display: block;
+}
+
+.blocoMenu ul.opcoesMenu li.itemMenu a.linkMenu:hover{
+	background-color:#EAF2FA;
+}
+
+/* ###################### */
+/* ###### Corpo ######### */
+/* ###################### */
+
+#conteudo{
+	margin: 10px 20px 10px 180px;
+	/*border:1px solid #CCC;*/
+	padding:1px;
+}
+
+.botao{
+	background-color: #f2f2f2;
+	background: -moz-linear-gradient(center bottom , #f2f2f2, #ffffff) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#f2f2f2));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#f2f2f2);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ffffff, endColorstr=#f2f2f2)";
+	
+	font-size: 8pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 3px 20px 3px 20px;
+	-moz-border-radius: 30px; /*Firefox*/
+	-webkit-border-radius: 30px; /*Safari/Crome*/
+	-khtml-border-radius: 30px; /*Linux Browser*/
+	border-radius: 30px; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+	border:1px solid #D1D1D1;
+	
+	font-weight: bold;
+}
+
+.botaoPrincipal{
+	background-color: #1D6385;
+	background: -moz-linear-gradient(center bottom , #1D6385, #298CBA) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#298CBA), to(#1D6385));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#298CBA, endColorstr=#1D6385);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#298CBA, endColorstr=#1D6385)";
+	
+	font-size: 8pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 3px 20px 3px 20px;
+	-moz-border-radius: 30px; /*Firefox*/
+	-webkit-border-radius: 30px; /*Safari/Crome*/
+	-khtml-border-radius: 30px; /*Linux Browser*/
+	border-radius: 30px; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+	border:1px solid #298CBA;
+	
+	color: #FFF;
+	font-weight: bold;
+}
+
+.botao:focus { 
+    outline: none; 
+}
+
+.botao:active{
+	outline: none; 
+	border:1px solid #666;
+}
+
+#containerTopoInterno{
+	min-height: 50px;
+	overflow: hidden;
+}
+
+.tituloPagina{
+	margin: 8px 10px 0 10px;
+}
+
+.contBtnAdd{
+	padding: 10px 0 0 0;
+}
+
+.boxPesquisa{
+	margin: 10px 0 10px 0;	
+}
+
+hr{
+	size: 5px;
+	color: #FFF;
+}
+
+/************/
+/* Listagem */
+/************/
+
+.listagemDeDados{
+	border:1px solid #E3E3E3;
+	-moz-border-radius: 5px 5px 5px 5px; /*Firefox*/
+	-webkit-border-radius: 5px 5px 5px 5px; /*Safari/Crome*/
+	-khtml-border-radius: 5px 5px 5px 5px; /*Linux Browser*/
+	border-radius: 5px 5px 5px 5px; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+	vertical-align: top;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.listagemDeDados td{
+	border-bottom:1px solid #E3E3E3;
+	height: 50px;
+	line-height: 18px;
+	padding: 8px 10px 2px 10px;
+	vertical-align: top;
+}
+
+.listagemDeDados .tituloColuna{
+	background-color: #E4E4E4;
+	background:-moz-linear-gradient(center bottom , #D7D7D7, #E4E4E4) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E4E4E4), to(#D7D7D7));
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#D7D7D7, endColorstr=#E4E4E4);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#D7D7D7, endColorstr=#E4E4E4)";
+	-o-background: #E4E4E4;
+	
+	font-weight: bold;
+	color: #333333;
+	padding: 4px 10px 4px 10px;
+	
+	border-bottom:0;
+	
+	height: 30px;
+	
+	vertical-align:middle;
+	
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.listagemDeDados .opcoesItem{
+	font-size: 8pt;
+	visibility: hidden;
+}
+
+.listagemDeDados a.linkExcluir{
+	color: #BC0B0B;	
+}
+
+.listagemDeDados a.linkExcluir:hover{
+	color: red;
+}
+
+.listagemDeDados a:hover{
+	color: #E14E21;
+}
+
+/*************/
+/* Adicionar */
+/*************/
+
+
+.containerCampo{
+	border:1px solid #E3E3E3;
+	-moz-border-radius: 5px 5px 5px 5px; /*Firefox*/
+	-webkit-border-radius: 5px 5px 5px 5px; /*Safari/Crome*/
+	-khtml-border-radius: 5px 5px 5px 5px; /*Linux Browser*/
+	border-radius: 5px 5px 5px 5px; /*Opera*/
+	behavior:url('border-radius.htc'); /* Hack IE */
+	vertical-align: top;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	padding: 0 0 10px 0;
+	margin: 10px 0 10px 0;
+	
+	background-color:#FFF;
+}
+
+.containerCampo .labelForm{
+	background-color: #E4E4E4;
+	background:-moz-linear-gradient(center bottom , #D7D7D7, #E4E4E4) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E4E4E4), to(#D7D7D7));
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#D7D7D7, endColorstr=#E4E4E4);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#D7D7D7, endColorstr=#E4E4E4)";
+	-o-background: #E4E4E4;
+	
+	font-weight: bold;
+	color: #333333;
+	padding: 4px 10px 4px 10px;
+	margin: 0 0 10px 0; 
+	
+	border-bottom:0;
+	
+	vertical-align:middle;
+	
+	display: block;
+	
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.containerInput{
+	display: block;
+	padding: 0 30px 0 0;
+	margin: 0 0px 10px 10px;
+}
+
+.containerCampo .containerInput .campoForm{
+	width: 100%;
+	display: block;
+	margin: 0 0 10px 0px;
+}
+
+.containerCampo .containerInput .listRadio label{
+	-moz-border-radius:5px 5px 5px 5px;
+	border:1px solid #E1E1E1;
+	cursor:pointer;
+	display:inline-block;
+	margin: 0px;
+	padding:5px;
+}
+
+.containerCampo .containerInput .listRadio label:hover{
+	background-color:#F1F1F1;
+}
+
+.containerCampo .containerInput .listRadio label.selecionado{
+	background-color:#F1F1F1;
+}
+
+.containerTextArea{
+	display: block;
+	width: 100% -20px;
+	padding: 0 10px 0 0;
+	margin: 0 0px 10px 10px;
+	color: #000000;
+}
+
+.containerCampo .helpCampo{
+	margin: 0 10px;
+	font-size: 8pt;
+	display: block;
+}
+
+#listaItensCamposPersonalizados{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hide{
+	display: none;
+	visibility: hidden;
+}
+/* NicEdit */
+
+
+
+
+
+/* ##################### */
+/* ###### rodape ####### */
+/* ##################### */
+
+#rodape{
+	background-color: #E4E4E4;
+	background:-moz-linear-gradient(center bottom , #D7D7D7, #E4E4E4) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E4E4E4), to(#D7D7D7));
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#D7D7D7, endColorstr=#E4E4E4);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#D7D7D7, endColorstr=#E4E4E4)";
+	-o-background: #E4E4E4;
+		
+	border:1px solid #D1D1D1;
+	color:#777777;
+	padding: 10px 20px 10px 20px; 
+}

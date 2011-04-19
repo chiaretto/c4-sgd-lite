@@ -1,0 +1,29 @@
+/*
+ * Lista de estilos site Conex Log
+ * @autor: Fabiano Chiaretto Fernandes
+ * @empresa: Fórmula P
+ * 
+ * Versão para IE6
+ * 
+ */
+
+ #menu #navigation li a{
+	font-size: 12pt;
+}
+
+#boxServicos .conteudoBox .left,#boxServicos .conteudoBox .right{
+	width: 227px;
+}
+
+
+#menu #navigation li #subMenu ul li{
+	height: 22px;
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+
+#menu #navigation li #subMenu a{
+	background: none;
+	font-size: 8pt;
+	font-weight: bold;
+}
