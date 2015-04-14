@@ -1,0 +1,5 @@
+Esse gerenciador de conteúdo (CMS) foi baseado no projeto C4 SGD, que é um sistema que pode ser configurado para atender diferentes tipos de sites. O propósito dele é que o próprio adminstrador do site e crie e gerencie os tipos de dados que o site deverá ter. Por exemplo: notícias, fotos, agenda, páginas, etc. Ele também permite definir quais campos cada tipo de dados desse deverá possuir. Essa versão lite exige um pouco conhecimento de php , html e css pois funciona como um framework de html e css e já vem com alguns exemplos de inclusão de dados.
+
+15-05-11
+Adicionei mais uma funcionalidade ao sistema. Agora é possível adicionar um mapa do google maps ao conteúdo, para que o administrador do site consiga adicionar pontos de marcação no mapa. Ex: http://www.sitesuberlandia.com.br/gerador-google-maps/
+Nesse caso, ele foi utlizado para marca os pontos de hidrantes da cidade de Uberlândia, e esse mapa será exibido no site do departamento de água e esgoto da cidade.
